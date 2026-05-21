@@ -1,0 +1,16 @@
+{
+  "name": "decentralized-private-data-vault",
+  "version": "1.0.0",
+  "description": "A Solidity system for tokenized private-cloud style decentralized data storage.",
+  "private": true,
+  "scripts": {
+    "compile:local": "solcjs --bin --abi --base-path . --include-path node_modules -o build contracts/DataVault.sol",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19"
+  }
+}

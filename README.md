@@ -1,6 +1,6 @@
-# Decentralized Private Data Vault
+# DataDapp
 
-This project implements a secure Solidity foundation for a decentralized private-cloud style data storage system.
+DataDapp is a secure Solidity foundation for a decentralized private-cloud style data storage system.
 
 The important design rule is simple: **do not put private user data on-chain**. The blockchain tokenizes and controls encrypted data references, while the actual encrypted files live in decentralized storage such as IPFS, Filecoin, Arweave, or another content-addressed storage network.
 
